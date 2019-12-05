@@ -1,0 +1,12 @@
+active: dev
+dev:
+  db:
+    url: jdbc:mysql://127.0.0.1:3306/test?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    user: root
+    password: 123456
+stable:
+  db:
+    url: jdbc:mysql://127.0.0.1:3306/test?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    user: root
+    passowrd: 123456
+mockServerUrl: http://localhost:9090/
